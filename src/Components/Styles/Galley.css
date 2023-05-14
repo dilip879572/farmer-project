@@ -1,0 +1,54 @@
+.main{
+    height: 400px;
+    width: 1000px;
+    border: 8px groove black;
+    border-radius: 10px;
+    box-shadow: 3px 4px 4px 4px black;
+}
+.img
+{
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px 3px black inset;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+.modal
+{
+    width: 100%;
+    min-height: 750px;
+    background-color:rgba(0,0,0,.4);
+    position: fixed;
+    top:0px;
+    display:none;
+    
+}
+.minner
+{
+    min-height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 2px white;
+    background: white;
+    margin-top: 80px;
+}
+.dmain
+{
+    width: 100%;
+
+}
+
+.a{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+#b{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}

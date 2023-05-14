@@ -1,0 +1,15 @@
+
+
+
+.hed1{
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:28px;
+}
+.hed2{
+    color:white !important;
+}
+.hed2:hover{
+   background: red;
+   border-radius: 8px;
+}

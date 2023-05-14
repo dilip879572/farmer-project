@@ -1,0 +1,35 @@
+<html>
+    <head>
+<style>
+   
+</style>
+    </head>
+    <body>
+        <center>
+        <h1>IMAGE GALLERY</h1></hr>
+        <img src="img/e.jpg" onclick="demo(this)" class="img"/>
+        <img src="img/gr.jpg" onclick="demo(this)" class="img"/>
+        <img src="img/manish.jpg" onclick="demo(this)" class="img"/><br/>
+        <img src="img/P.png" onclick="demo(this)" class="img"/>
+        <img src="img/po.jpg" onclick="demo(this)" class="img"/>
+        <img src="img/st.png" onclick="demo(this)" class="img"/>
+        <!----------startmodal-->
+        <div id="modal">
+            <div id="minner">
+                <div style="text-align:center;font-size: 30px;">IMAGE<b style="color: red;">GALLERY</b>
+                    <a href="modal.html"><b style="color: red; font-size:25px; float:right;">X</b></a>
+                <img src="img/th.jpg" id="dmain"/></div>
+            </div>
+        </div>
+              <!----------startmodal-->
+        </center>
+        <script>
+            function demo(a)
+            {
+              var modal=document.querySelector("#modal")
+              modal.style.display="block"
+              document.querySelector("#dmain").src=a.src
+            }
+        </script>
+    </body>
+</html>
